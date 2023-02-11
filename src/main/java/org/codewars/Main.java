@@ -1,6 +1,7 @@
 package org.codewars;
 
 import org.codewars.kata.Kata;
+import org.codewars.mexicanWave.MexicanWave;
 
 import java.util.Arrays;
 
@@ -9,10 +10,8 @@ public class Main {
 
         System.out.println("Hello Codewars!");
 
-        int[] data1= {0,0,1,1,0,1,1,0,0,0,1,0,1,0,0,1};
-        int[] data2= {0,0,1,0,1,0,0,1,0,0,1,1,0,1,1,0};
+        MexicanWave mexicanWave = new MexicanWave();
 
-        System.out.println(Arrays.equals(data2, Kata.DataReverse(data1)));
-
+        System.out.println(Arrays.toString(mexicanWave.wave(" hello codewars ")));
     }
 }
