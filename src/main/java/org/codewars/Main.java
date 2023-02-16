@@ -1,7 +1,8 @@
 package org.codewars;
 
-import org.codewars.kata.Kata;
+import org.codewars.bitcoinStatistics.Stats;
 import org.codewars.mexicanWave.MexicanWave;
+import org.codewars.uniqueNumber.Kata;
 
 import java.util.Arrays;
 
@@ -10,8 +11,9 @@ public class Main {
 
         System.out.println("Hello Codewars!");
 
-        MexicanWave mexicanWave = new MexicanWave();
+        Kata kata = new Kata();
 
-        System.out.println(Arrays.toString(mexicanWave.wave(" hello codewars ")));
+        System.out.println(kata.findUniq(new double[]{1, 1, 1, 2, 1, 1}));
+
     }
 }
