@@ -1,4 +1,4 @@
-package org.codewars.runLengthEncoding;
+package org.codewars.ku6.runLengthEncoding;
 
 import static java.util.regex.Pattern.compile;
 

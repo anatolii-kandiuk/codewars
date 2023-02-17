@@ -1,4 +1,4 @@
-package org.codewars.xbonacci;
+package org.codewars.ku6.xbonacci;
 
 import java.util.Arrays;
 import java.util.stream.Stream;

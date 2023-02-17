@@ -1,4 +1,4 @@
-package org.codewars.kata;
+package org.codewars.ku6.kata;
 
 public class Kata {
 

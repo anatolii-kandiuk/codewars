@@ -1,4 +1,4 @@
-package org.codewars.uniqueNumber;
+package org.codewars.ku6.uniqueNumber;
 
 import java.util.Arrays;
 

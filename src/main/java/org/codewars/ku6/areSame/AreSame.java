@@ -1,4 +1,4 @@
-package org.codewars.areSame;
+package org.codewars.ku6.areSame;
 
 import java.util.Arrays;
 

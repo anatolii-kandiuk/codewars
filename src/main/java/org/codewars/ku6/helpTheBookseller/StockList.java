@@ -1,4 +1,4 @@
-package org.codewars.helpTheBookseller;
+package org.codewars.ku6.helpTheBookseller;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package org.codewars.mexicanWave;
+package org.codewars.ku6.mexicanWave;
 
 import java.util.stream.IntStream;
 
