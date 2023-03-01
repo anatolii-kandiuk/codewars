@@ -1,5 +1,6 @@
 package org.codewars;
 
+import org.codewars.ku5.PigLatin.PigLatin;
 import org.codewars.ku5.friendCheating.RemovedNumbers;
 import org.codewars.ku6.runLengthEncoding.RunLengthEncoding;
 
@@ -8,7 +9,9 @@ public class Main {
 
         System.out.println("Hello Codewars!");
 
-        System.out.println(RemovedNumbers.removNb(26));
+        System.out.println(PigLatin.pigIt("Pig - latin, is cool!"));
+
+//        System.out.println(RemovedNumbers.removNb(26));
 
 
 //        String encode = RunLengthEncoding.encode("KKKAAAAANNNNNNDDDDDDIIIIIIIUUUUUUKKKKKK");
